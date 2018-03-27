@@ -1,0 +1,559 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\000032}}
+* {
+  box-sizing: border-box; }
+
+/*powtarza się np. position relative, ale to chyba zbyt związane z konkretnym elementem */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000319}}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000324}}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000328}}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000334}}
+header {
+  background-color: #313234;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000340}}
+.navbar img {
+  padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000343}}
+.navbar div ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000349}}
+.navbar li {
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000352}}
+.navbar li a {
+  display: block;
+  min-width: 140px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000363}}
+.navbar li:hover a {
+  background: #ccc;
+  color: #4169E1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000367}}
+.show-menu {
+  text-decoration: none;
+  color: #fff;
+  background: #00C7E8;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000377}}
+input[type=checkbox] {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000380}}
+input[type=checkbox]:checked ~ #menu {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000383}}
+.hero {
+  width: 100%;
+  height: 350px;
+  background-image: url("https://source.unsplash.com/XLm6-fPwK5Q/1200x350");
+  background-size: cover;
+  background-position: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000390}}
+.slogan {
+  background-color: rgba(49, 50, 52, 0.5);
+  float: right;
+  max-width: 800px;
+  margin-top: 100px;
+  text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\0000397}}
+  .slogan div {
+    padding: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-right: 300px;
+    color: #fff;
+    font-size: 200%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003105}}
+  .slogan span {
+    font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003108}}
+[class*='col-'] {
+  float: left;
+  width: 100%;
+  padding: 12px; }
+
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003114}}
+  .col-1 {
+    width: 8.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003116}}
+  .col-2 {
+    width: 16.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003118}}
+  .col-3 {
+    width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003120}}
+  .col-4 {
+    width: 33.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003122}}
+  .col-5 {
+    width: 41.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003124}}
+  .col-6 {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003126}}
+  .col-7 {
+    width: 58.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003128}}
+  .col-8 {
+    width: 66.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003130}}
+  .col-9 {
+    width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003132}}
+  .col-10 {
+    width: 83.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003134}}
+  .col-11 {
+    width: 91.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003136}}
+  .col-12 {
+    width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003139}}
+.icon {
+  text-align: center;
+  max-width: 80%;
+  padding-top: 20px;
+  transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003144}}
+  .icon:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+    color: #00C7E8;
+    position: relative;
+    transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003151}}
+  .icon > p:nth-child(2) {
+    text-transform: uppercase;
+    font-weight: 700; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003155}}
+i.fa-desktop {
+  color: #00C7E8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003158}}
+.desktop > p:nth-child(2) {
+  color: #00C7E8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003161}}
+section > .container {
+  margin: 50px auto;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003165}}
+.text-1 {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003168}}
+  .text-1 > h2 {
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003171}}
+  .text-1 > p {
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003177}}
+.gallery-2 {
+  padding: 0;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003180}}
+  .gallery-2:hover {
+    opacity: 0.7;
+    transition: 0.8s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003184}}
+    .gallery-2:hover > .layer {
+      color: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003187}}
+  .gallery-2 > img {
+    width: 100%;
+    height: 100%;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003192}}
+.layer {
+  position: absolute;
+  color: rgba(242, 242, 242, 0);
+  font-size: 1.8vw;
+  padding-top: 28%;
+  height: 100%;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003200}}
+  .layer > a {
+    color: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003203}}
+.fa-camera-retro {
+  margin-left: 3vw; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003205}}
+  .fa-camera-retro:hover {
+    color: #a3a3a3;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003209}}
+.fa-search {
+  margin-left: 5vw; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003211}}
+  .fa-search:hover {
+    color: #a3a3a3;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003215}}
+.staff {
+  max-width: 80%;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003219}}
+  .staff p {
+    font-size: 25px;
+    font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003223}}
+.staff-2 {
+  padding-top: 25px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003226}}
+.circle {
+  margin: auto;
+  background-color: #05d8ff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003233}}
+  .circle:hover {
+    background-color: rgba(5, 216, 255, 0.2);
+    transform: scale(1.1);
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003237}}
+    .circle:hover > p {
+      margin: 0;
+      color: #313234;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 2em;
+      transition: 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003245}}
+  .circle > p {
+    color: rgba(49, 50, 52, 0);
+    margin: 0;
+    padding-top: 55px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003250}}
+.ceo > p:first-child {
+  font-size: 3.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003253}}
+.secretary > p:first-child, .accountant > p:first-child {
+  padding-top: 75px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003256}}
+.title {
+  max-width: 100%;
+  padding-top: 50px;
+  background-color: grey;
+  background-size: cover;
+  background-position: center;
+  height: 455px;
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003267}}
+.title-text > p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: left;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003276}}
+.title-text div > p {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003281}}
+.image-2 {
+  margin-left: 30%;
+  height: 350px;
+  width: 70%;
+  border-radius: 10% 10% 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003287}}
+.text-ad p {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-right: 30%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003294}}
+.numbers {
+  padding-top: 20px;
+  max-width: 80%;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003299}}
+.numbers-1 > p:first-child, .numbers-2 > p:first-child, .numbers-3 > p:first-child, .numbers-4 > p:first-child {
+  font-size: 4.5em;
+  font-weight: 700;
+  font-style: oblique;
+  color: #00C7E8;
+  text-shadow: 2px 2px grey;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003308}}
+.numbers-1 > p:nth-child(2), .numbers-2 > p:nth-child(2), .numbers-3 > p:nth-child(2), .numbers-4 > p:nth-child(2) {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003313}}
+.foot {
+  max-width: 100%;
+  background-color: #313234;
+  height: initial; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003318}}
+  .foot p {
+    display: inline-block;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003322}}
+  .foot span {
+    background: #313234;
+    position: relative;
+    z-index: 10;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 10px 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003331}}
+.headline {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003334}}
+  .headline .line {
+    position: absolute;
+    top: 50%;
+    height: 4px;
+    background: #fff;
+    width: 100%;
+    z-index: 9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003342}}
+.foot-2 {
+  padding: 0 10% 0 10%;
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003346}}
+.heads > p:first-child {
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003352}}
+.adress-2 {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003355}}
+.fa-twitter-square {
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003357}}
+  .fa-twitter-square:hover {
+    color: #55ACEE;
+    cursor: pointer;
+    opacity: 0.7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003362}}
+.copyrights {
+  text-align: center;
+  max-width: 100%;
+  background-color: #252726;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1.2em; }
+
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003371}}
+  .col-s-1 {
+    width: 8.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003373}}
+  .col-s-2 {
+    width: 16.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003375}}
+  .col-s-3 {
+    width: 25%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003377}}
+  .col-s-4 {
+    width: 33.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003379}}
+  .col-s-5 {
+    width: 41.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003381}}
+  .col-s-6 {
+    width: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003383}}
+  .col-s-7 {
+    width: 58.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003385}}
+  .col-s-8 {
+    width: 66.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003387}}
+  .col-s-9 {
+    width: 75%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003389}}
+  .col-s-10 {
+    width: 83.33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003391}}
+  .col-s-11 {
+    width: 91.66%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003393}}
+  .col-s-12 {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003396}}
+  .navbar {
+    overflow: hidden;
+    background-color: #7F7F7F;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003404}}
+    .navbar ul {
+      position: static;
+      display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003408}}
+    .navbar li {
+      margin-bottom: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003411}}
+    .navbar ul li, .navbar li a {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003414}}
+    .navbar a {
+      padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003417}}
+    .navbar img {
+      padding: 5px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003420}}
+    .navbar > div ul {
+      float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003423}}
+    .navbar ul > li {
+      display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003426}}
+  .show-menu {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003429}}
+  .hero {
+    margin-top: 32px;
+    padding-top: 100px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003433}}
+  .slogan {
+    float: none;
+    margin-top: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003437}}
+    .slogan div {
+      text-align: center;
+      padding-right: 0;
+      font-size: 150%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003442}}
+  .icon {
+    max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003444}}
+    .icon:hover {
+      cursor: default;
+      transform: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003448}}
+  .layer {
+    font-size: 3vh; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003451}}
+  .fa-camera-retro {
+    margin-left: 12vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003454}}
+  .fa-search {
+    margin-left: 12vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003457}}
+  .title {
+    height: 900px;
+    padding-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003461}}
+  .image-2 {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 10% 10% 10% 10%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Users\/Maksym\/Documents\/Kodilla\/Zadanie\%206\.2\%20Przeniesienie\%20projektu\%20na\%20Sassa\/style\.sass}line{font-family:\00003467}}
+  .foot-2 {
+    padding: 0px 0px 0px 0px; } }
+
+/*# sourceMappingURL=style.css.map */
